@@ -206,4 +206,76 @@ var WORDS = {
 			replacement: ""
 		}
     ],
+    words_male: [
+        {
+            keyword: "guy",
+            message: "This is not an inclusive word, make sure the person you're referring to is a guy",
+            replacement: "person"
+        },
+        {
+            keyword: "guys",
+            message: "This is not an inclusive word, make sure the people you're referring to are guys.",
+            replacement: "people"
+        },
+        {
+            keyword: "lame",
+            message: "Synonym for worthless, incapable, etc",
+            replacement: "as good"
+        },
+        {
+            keyword: "that's so gay",
+            message: "Yeah and if that's so manly! Don't use gender as an offense or comic.",
+            replacement: "that's so not like me"
+        },
+        {
+            keyword: "tranny",
+            message: "Do not label someone or use this as a joke",
+            replacement: ""
+        },
+        {
+            keyword: "he-she",
+            message: "This is demeaning, prefer asking the other person their pronoun.",
+            replacement: ""
+        },
+        {
+            keyword: "what are you",
+            message: "Did you just objectify the person?",
+            replacement: "Who do you identify as?"
+        },
+        {
+            keyword: "fat ass",
+            message: "Demeaning and body-shaming. Kindly reconsider. Click to remove",
+            replacement: ""
+        },
+        {
+            keyword: "ugly",
+            message: "If used for a person, consider removing this. Double click to remove.",
+            replacement: ""
+        },
+        {
+            keyword: "thot",
+            message: "Abusive. Click to remove.",
+            replacement: ""
+        },
+        {
+            keyword: "cunt",
+            message: "Referring to vaginas to implicate weakness?. Double click to remove.",
+            replacement: ""
+        },
+        {
+            keyword: "pussy",
+            message: "Referring to vaginas to implicate weakness?. Double click to remove.",
+            replacement: ""
+        },
+        {
+            keyword: "i'm not gay",
+            message: "Limit yourself to your identity. Double click to change.",
+            replacement: "I'm straight"
+        },
+        {
+            keyword: "lady-like",
+            message: "Generalizing someone and giving such adjectives, isn't very polite. Double click to remove.",
+            replacement: ""
+        }
+    ],
 };
